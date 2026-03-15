@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var balance = 10000;
+        var amount = prompt("Enter your amount to transfer : ");
+        if(amount<balance){
+            alert("Confirm with your entered transfer amount is : " + amount);
+            balance=balance-amount;
+            alert("Your money is transferred successfully");
+            alert("Your remaining balance is : " + balance);
+        }
+        else{
+            alert("Your entered amount is greater than :" + balance)
+        }
+    </script>
+</body>
+</html>
