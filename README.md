@@ -1,2 +1,55 @@
-# Javascript-Learning
-JavaScript Learning This repository is dedicated to learning and practicing JavaScript, covering fundamental concepts, advanced topics, and practical exercises.  What's inside:  Beginner-friendly tutorials and examples Hands-on coding exercises Notes and resources for JavaScript concepts (ES6 and beyond) Mini-projects and challenges to apply skills
+# Javascript Learning
+
+This repository is a personal learning playground for JavaScript. It contains example code, small exercises, and mini projects that demonstrate the core language concepts from basics through more advanced topics.
+
+## 📁 Repository Structure
+
+- `index1.html` / `practice.js` — quick test & sandbox files for trying out snippets.
+- `Day_1_Implimentation/` → basic console logging and function examples.
+- `Day_2_Variables/` → variable declaration and usage.
+- `Day_3_var,let,const/` → difference between `var`, `let`, and `const`.
+- `Day_4_Data_types/` → primitive and reference type examples.
+- `Day_5_Template_Literal/` → template literal usage.
+- `Day_6_Operators/` → arithmetic, assignment, comparison, logical, bitwise, ternary, and unary operator examples.
+- `Day_7_Conditional_Statements/` → `if`, `if/else`, `if/else if/else`, and `switch` statements.
+- `Day_8_Loops/` → `for`, `while`, `do/while` loop examples.
+- `Day_9_Arrays/` → baseline array usage plus array method examples.
+- `Day_10_Functions/` → function declarations, expressions, and basic patterns.
+- `Day_11_Function_types/` → function types, arrow functions, callbacks.
+- `Day_12_Scope/` → scope, hoisting, closures.
+- `Day_13_parameters/` → function parameters, default values, rest/spread.
+- `Day_14_DOM/` → DOM manipulation and event handling examples.
+- `CallbackFunctions/` → dedicated callback function examples.
+- `Map/` → examples using the `Map` object.
+
+## 🚀 Getting Started
+
+1. **Open the folder** in a code editor (e.g., VS Code).
+2. Open an HTML file (e.g., `Day_14_DOM/index.html`) in your browser to run UI examples.
+3. Run standalone Node scripts (e.g., `practice.js`) via terminal:
+
+```sh
+node practice.js
+```
+
+## 🧪 How to Use
+
+- Explore the numbered `Day_*` folders in order to follow a gradual learning path.
+- Open the `.js` files to read the code and add your own experiments.
+- Open the `.html` files in your browser to see DOM-related examples.
+
+## ✅ Recommended Workflow
+
+1. Pick a day/topic folder.
+2. Read the existing code and comments.
+3. Modify the code or add a new example file.
+4. Run the code (Node for `.js`, browser for `.html`).
+
+## 📝 Notes
+
+- This repository is primarily a learning exercise, so files are intentionally simple and focused on a single concept.
+- Feel free to add new folders or files as you explore new JavaScript topics.
+
+---
+
+Happy learning! 🎉

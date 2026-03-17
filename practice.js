@@ -1,11 +1,33 @@
 
-getname()
+// getname()
 
-console.log(x);
+// console.log(x);
 
-var x =10;
+// console.log(getname);
 
-function getname(){
-    var name = 'Namaste';
-    console.log(name);
+// var x =10;
+
+// function getname(){
+//     var name = 'Namaste';
+//     console.log(name);
+// }
+
+
+// (function sum(a,b){
+//     var c = a+b;
+//     console.log(c);
+// }) (5,10);
+ 
+function a() {
+    var b = 10;
+    d();
+    function d() {
+        function c() {
+            console.log(b);
+        } c();
+    }
 }
+
+a();
+
+
