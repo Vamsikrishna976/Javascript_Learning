@@ -19,8 +19,11 @@ This repository is a personal learning playground for JavaScript. It contains ex
 - `Day_12_Scope/` → scope, hoisting, closures.
 - `Day_13_parameters/` → function parameters, default values, rest/spread.
 - `Day_14_DOM/` → DOM manipulation and event handling examples.
-- `CallbackFunctions/` → dedicated callback function examples.
-- `Map/` → examples using the `Map` object.
+- `Day_14.1_Hoisting/` → JavaScript hoisting behavior with `var`, `let`, and `const`.
+- `Day_15_Map/` → working with the `Map` data structure.
+- `Day_16_CallbackFunctions/` → callback functions, async patterns, function passing.
+- `Day_17_Scope,ScopeChain&LaxicalEnvirment/` → scope chain, lexical environment, and closure concepts.
+- `Day_18_TemporalDeadZone/` → temporal dead zone, `let`/`const` behavior before initialization.
 
 ## 🚀 Getting Started
 
