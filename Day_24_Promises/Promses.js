@@ -25,7 +25,7 @@ createorder(cart, (orderid) => {
 // Example of promise chaining:
 // Assuming createorder, proceedtopayment, showordersummary, and updatewallet are functions that return promises
 
-createorder(cart)
+const promise = createorder(cart)
 .then(function (orderid){
     return proceedtopayment(orderid);
 })

@@ -22,8 +22,6 @@ console.log(area(radius))
 // }
 
 
-
-
 const circumference = function (radius){
     const output = [];
     for( i=0; i < radius.length; i++){

@@ -38,3 +38,73 @@ console.log(a);
 const b = 20;
 console.log(b);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//cart
+// create order (creates orderid)
+// proceed to payment (creates payment info)
+// ordersummary
+// update wallet
+
+createorder (cart, (orderid)=> {
+    proceedtopayment(orderid, (paymentinfo) => {
+        getordersummary(Paymentinfo, () => {
+            updatewallet();
+        });
+    });
+});
+
+const cart = ["shoes", 'pants']
+
+const promise = createorder(cart,orderid)
+.then(function (orderid){
+    return proceedtopayment(orderid);
+})
+.then(function (paymentinfo){
+    return ordersummary(paymentinfo);
+})
+.then(function (paymentinfo){
+    return updatewallet(paymentinfo);
+});
+
+
+
+const promise1 =createorder(cart,orderid)
+.then((orderid) => proceedtopayment(orderid))
+.then((paymentinfo) => ordersummary(paymentinfo))
+.then((paymentinfo) => updatewallet(paymentinfo));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
