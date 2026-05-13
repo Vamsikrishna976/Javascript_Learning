@@ -31,27 +31,12 @@
 // a();
 
 
-let a;
+/* et a;
 a =10;
 console.log(a);
 
 const b = 20;
 console.log(b);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -89,22 +74,16 @@ const promise1 =createorder(cart,orderid)
 .then((paymentinfo) => ordersummary(paymentinfo))
 .then((paymentinfo) => updatewallet(paymentinfo));
 
+---> */
 
 
+let word1 = 'Vamsi'
+let word2 = 20
+let word3 = 30
+let message = `${word1}    ${word2} + ${word3}`
+console.log(message)
 
 
+var a= prompt("Enter a value: ");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ (a>10) ? console.log("a is above 10 ") : console.log("a is below 10")
